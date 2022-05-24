@@ -3,7 +3,7 @@
 # (and to your CI tool env vars if running in CI)
 HEROKU_APP_NAME=giuditta-poetry-api
 COMMIT_ID=$(shell git rev-parse HEAD)
-HEROKU_API_KEY=59a77a75-afb6-4639-842e-cc0b20f2cf16
+HEROKU_API_KEY=**********************
 
 heroku-login:
 	HEROKU_API_KEY=${HEROKU_API_KEY} heroku auth:token
